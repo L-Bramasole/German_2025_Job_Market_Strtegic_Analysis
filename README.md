@@ -8,7 +8,9 @@ This project is submitted as a student case study, developed as part of a Data A
     • What factors (e.g., experience, industry, location) are the strongest predictors of salary?
     • How is the job market segmented in terms of salary vs. volume of opportunities?
     • What is the long-term forecast for German employment trends?
-    
+
+#### Project Dashboard summary https://public.tableau.com/views/GermanJobMarket2025-AStrategicAnalysis/Story1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ## 💾 Data Sources
 The analysis is built on two primary datasets:
     1. Job Market 2025 Dataset (Synthetic): A comprehensive set of over 30,000 synthetic job postings data, including job titles, industries, experience levels, salary median, remote availability, and key metrics like a Demand Index and Competitiveness Score.
