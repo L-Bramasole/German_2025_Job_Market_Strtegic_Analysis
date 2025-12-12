@@ -28,53 +28,20 @@ Initial analysis focused on descriptive statistics, correlation matrices, and sp
 
 ## 💡 Key Findings and Recommendations for Job Applicants
 ### Strongest Indicators
-Metric      	Primary Finding	Strategic                           Implications for Job Applicants
-Salary Driver	Experience Level explains ~57% of salary variance.	        Prioritize roles with clear upward mobility.
-Top Demand	    IT and Engineering lead in job openings and Demand Index.	Target these sectors for long-term growth and stability.
-Salary Hubs	    Berlin and Hessen offer the most competitive median salaries to match the high living expenses.	Location is not a key factor in terms of compensation
-Qualifications	Bachelor's and Master's degrees are the standard requirements.	Education is the baseline for entry into most roles.
-Remote Work	    Remote availability does not significantly affect the offered median salary.	No penalty for seeking remote work based on pay.
+#### Salary Driver	
+Experience Level explains ~57% of salary variance.	        Prioritize roles with clear upward mobility.
+#### Top Demand	  
+IT and Engineering lead in job openings and Demand Index.	Target these sectors for long-term growth and stability.
+#### Salary Hubs	 
+Berlin and Hessen offer the most competitive median salaries to match the high living expenses.	Location is not a key factor in terms of compensation
+#### Qualifications	
+Bachelor's and Master's degrees are the standard requirements.	Education is the baseline for entry into most roles.
+#### Remote Work	    
+Remote availability does not significantly affect the offered median salary.	No penalty for seeking remote work based on pay.
 ### Market Segmentation (Cluster Analysis)
 The market is not homogenous, with distinct segments defining career pathways:
     • Cluster 2 (Lucrative & Scarce): High salaries, high experience, and high competition (e.g., specialized senior IT roles).
     • Cluster 1 (Modest but Abundant): High volume of openings, high demand index, but lower median salaries (e.g., entry-level positions and high-turnover roles).
     
-## 🛠️ Repository Structure
-.├── README.md                                   // Project overview and documentation.
-├── 02 Data/
-│   ├── Original/
-│   │   ├── german_cities.geojson               // Geospatial data for German cities.
-│   │   ├── german_states.geojson               // Geospatial data for German states.
-│   │   ├── Job_Market_Germany_dataset.csv      // Primary synthetic job market dataset.
-│   │   └── German_employment_2010_2025.xlsx    // Historical employment data (2010–2025).
-│   └── Manipulated/
-│       ├── Job_Market_Germany_dataset.xlsx     // Cleaned and formatted dataset.
-│       ├── Job_Market_Germany_dataset_clustered.xlsx // Clustered dataset (K-Means results).
-│       └── Job_Market_Germany_dataset_encoded.xlsx   // Encoded dataset for modeling.
-├── 03 Scripts/
-│   ├── Set1_01_Cleaning_and_Descriptive.ipynb  // Data profiling, cleaning, and descriptive analysis.
-│   ├── Set1_02_Salary_and_Openings_Trends.ipynb // Salary and job openings trend analysis.
-│   ├── Set1_03_Geospatial_Analysis.ipynb       // Distribution of jobs across German states and cities.
-│   ├── Set1_04_Job_Market_Regressions_Part1.ipynb // Regression modeling (part 1).
-│   ├── Set1_04_Job_Market_Regressions_Part2.ipynb // Regression modeling (part 2).
-│   ├── Set1_05_Classification_KMeans.ipynb     // K-Means clustering for market segmentation.
-│   └── Set2_01_TimeSeries_Analysis_German_Employment.ipynb // Time-series forecasting of employment trends.
-├── 04 Analysis/                                // Graphs, tables, and visualization outputs.
-├── 05 Results_Summary/                         // Final summarized results of all figures and analyses.
-├── src/                                        // Reusable Python modules.
-│   ├── data_processor.py                       // Functions for data cleaning and feature engineering.
-│   └── visualizer.py                           // Helper functions for generating complex plots.
-└── requirements.txt                            // Python dependencies required to run the notebooks.
+#### 🛠️ Repository Structure, ⚙️ Dependencies files are availble as txt
 
-
-## ⚙️ Dependencies
-To run this project locally, please install the following Python packages:
-pip install -r requirements.txt
-Required packages include:
-    • pandas
-    • numpy
-    • scikit-learn (for Regression and K-Means Clustering)
-    • statsmodels (for Time Series Analysis)
-    • matplotlib
-    • seaborn
-    • geopandas (or similar for geospatial plotting, if used)
