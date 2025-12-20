@@ -1,0 +1,28 @@
+🛠️ Repository Structure
+.├── README.md                                   // Project overview and documentation.
+├── 02 Data/
+│   ├── Original/
+│   │   ├── german_cities.geojson               // Geospatial data for German cities.
+│   │   ├── german_states.geojson               // Geospatial data for German states.
+│   │   ├── Job_Market_Germany_dataset.csv      // Primary synthetic job market dataset.
+│   │   └── German_employment_2010_2025.xlsx    // Historical employment data (2010–2025).
+│   └── Manipulated/
+│       ├── Job_Market_Germany_dataset.xlsx     // Cleaned and formatted dataset.
+│       ├── Job_Market_Germany_dataset_clustered.xlsx // Clustered dataset (K-Means results).
+│       └── Job_Market_Germany_dataset_encoded.xlsx   // Encoded dataset for modeling.
+├── 03 Scripts/
+│   ├── Set1_01_Cleaning_and_Descriptive.ipynb  // Data profiling, cleaning, and descriptive analysis.
+│   ├── Set1_02_Salary_and_Openings_Trends.ipynb // Salary and job openings trend analysis.
+│   ├── Set1_03_Geospatial_Analysis.ipynb       // Distribution of jobs across German states and cities.
+│   ├── Set1_04_Job_Market_Regressions_Part1.ipynb // Regression modeling (part 1).
+│   ├── Set1_04_Job_Market_Regressions_Part2.ipynb // Regression modeling (part 2).
+│   ├── Set1_05_Classification_KMeans.ipynb     // K-Means clustering for market segmentation.
+│   └── Set2_01_TimeSeries_Analysis_German_Employment.ipynb // Time-series forecasting of employment trends.
+├── 04 Analysis/                                // Graphs, tables, and visualization outputs.
+├── 05 Results_Summary/                         // Final summarized results of all figures and analyses.
+├── src/                                        // Reusable Python modules.
+│   ├── data_processor.py                       // Functions for data cleaning and feature engineering.
+│   └── visualizer.py                           // Helper functions for generating complex plots.
+└── requirements.txt                            // Python dependencies required to run the notebooks.
+
+

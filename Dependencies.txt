@@ -1,0 +1,11 @@
+⚙️ Dependencies
+To run this project locally, please install the following Python packages:
+pip install -r requirements.txt
+Required packages include:
+    • pandas
+    • numpy
+    • scikit-learn (for Regression and K-Means Clustering)
+    • statsmodels (for Time Series Analysis)
+    • matplotlib
+    • seaborn
+    • geopandas (or similar for geospatial plotting, if used)
