@@ -2,6 +2,8 @@
 ## 🎯 Project Overview
 This project provides a comprehensive, data-driven analysis of the German job market, focusing on trends leading up to and during 2025. It integrates job market metrics with historical employment data to deliver actionable insights on demand, salary expectations, and qualification requirements.
 The primary goal is to identify strategic career pathways and provide predictive context for stakeholders (job seekers, educators, and hiring managers).
+see case study sammary:
+05 Results Summary/Case Study-German Job Market-Dr.Bramasole.pdf
 
 This project is submitted as a student case study, developed as part of a Data Analysis course, with the primary purpose of demonstrating and applying statistical, machine learning, and visualization techniques.
 ## Key Questions Addressed:
