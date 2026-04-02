@@ -5,8 +5,8 @@ This project provides a comprehensive, data-driven analysis of the German job ma
 is to identify strategic career pathways and provide predictive context for stakeholders (job seekers, educators, and hiring managers).
 
 * see case study sammary:Case Study-German Job Market-Dr.Bramasole.pdf
-*  Project Dashboard summary https://public.tableau.com/views/GermanJobMarket2025-AStrategicAnalysis/Story1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
+*  Project Dashboard summary https://public.tableau.com/views/GermanJobMarket2025-AStrategicAnalysis_v2025_2-dashboard/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+  
 This project is submitted as a student case study, developed as part of a Data Analysis course, with the primary purpose of demonstrating and applying statistical, machine learning, and visualization techniques.
 ## Key Questions Addressed:
     • Which industries and regions are experiencing the highest demand and growth?
@@ -51,6 +51,8 @@ Initial analysis focused on descriptive statistics, correlation matrices, and sp
 
 **3.** **Time Series Forecasting**
     • Data Preparation: The historical German employment data was analyzed for stationarity and seasonality. A 12-month lag seasonal differencing was applied to achieve statistical stationarity.
+
+
     
 #### 🛠️ Repository Structure, ⚙️ Dependencies files are availble as txt
 
